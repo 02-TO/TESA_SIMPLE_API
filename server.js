@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/me', (req, res) => {
+app.get('/you', (req, res) => {
   res.send('now that you are here, this is owned by me Temiloluwa the greatest person alive!!!');
 
 });
